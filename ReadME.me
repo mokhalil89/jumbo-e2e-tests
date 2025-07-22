@@ -1,0 +1,42 @@
+# Testing [Miro Signup webapp](https://miro.com/signup/) using Cypress
+
+## __Prerequisites__
+1. Install [NodeJS](https://nodejs.org)
+2. Install [Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress.html#Install-binary)
+4. Have browsers installed
+
+## [Test Plan](testPlan.txt)
+
+## __Installing Dependencies__
+1. Install Cypress
+````
+npm install cypress
+````
+2. Install ESLint and Cypress plugin
+````
+npm install --save-dev eslint eslint-plugin-cypress
+````
+3. Add Prettier Integration
+````
+npm install --save-dev prettier eslint-config-prettier
+````
+4. Install Data Faker
+````
+npm install --save-dev @faker-js/faker
+````
+5.To use hover Plugin
+````
+npm install --save-dev cypress-real-events
+````
+6. To open the Cypress Application use the command
+````
+npx cypress open
+````
+7. To run Cypress Headless use the command
+````
+npx cypress run
+````
+8. To run Cypress Headless on specific browser use the command
+````
+npx cypress run --browser {browser name}
+````

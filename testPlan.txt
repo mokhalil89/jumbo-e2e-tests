@@ -1,0 +1,67 @@
+Create an automation framework to execute the scenario’s listed below.
+The framework should be able to execute UI tests on Altijd lage prijzen op je
+dagelijkse boodschappen or Jumbo APP, your choice. You can use the tool(s),
+framework and language that you prefer. We want you to showcase your skills. If you
+feel comfortable showcasing your skills with any of the frameworks we currently use,
+that would be a win-win. Next to the framework itself, please provide a written
+explanation of the steps you took and the choices you made, to give us some insights in
+your process.
+If it’s not possible to finish the whole assignment in less than 3 hours, please share what
+you were able to do in that time and contact us.
+ 
+Frameworks which are currently being used within Jumbo:
+ Cypress - Graphql mock server with Mocha/Chai
+ Serenity BDD - RestAssured with Junit5
+
+
+Scenario (1)
+Open the jumbo website or APP
+User story
+As a customer I want to open the Jumbo website or APP so that I can learn more about
+what Jumbo has to offer
+Acceptance criteria
+1. From the home screen the customer should have the option to navigate to
+products (“Producten”), to recipes (“Recepten”), to offers (“Aanbiedingen”) and
+product basket (“Mandje”)
+2. The home screen offers the customer pre-defined shopping
+ 
+Scenario (2)
+Login with an existing customer
+User story
+As a loyal customer I want to log-in with my My Jumbo account so that my shopping
+experience will be personalized
+Acceptance criteria
+1. For log-in a username in (the form of an e-mailadress) and password are
+required
+
+2. The customer is greeted by their first name (“Hallo &lt;first name&gt;”) on the home
+page
+
+Scenario (3)
+Search for a specific product
+User story
+As a customer I want to search based on product names so that I can easily find my
+favorite products.
+Acceptance criteria
+1. When using the search bar to search for “Unicorn”, all returned items have
+“Unicorn” in their product name
+2. For all available items a price is shown
+
+Scenario (4)
+Open the product detail page
+User story
+As a customer I want to open the product detail page to get more information about the
+product.
+Acceptance criteria
+1. The price of the product is shown
+2. Add To Basket option is available
+3. Breadcrumbs are visible
+ 
+Scenario (5)
+Add a product to the basket from the product detail page
+User story
+As a customer I want to add the product to my basket so that I can create an order.
+Acceptance criteria
+1. Item count on basket icon is increased
+2. Product is shown in the basket with the correct quantity 
+3. There is an option to remove the product from the basket
