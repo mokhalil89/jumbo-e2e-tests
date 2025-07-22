@@ -1,42 +1,36 @@
-# Testing [Miro Signup webapp](https://miro.com/signup/) using Cypress
+# 🧪 Jumbo E2E Tests
 
-## __Prerequisites__
-1. Install [NodeJS](https://nodejs.org)
-2. Install [Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress.html#Install-binary)
-4. Have browsers installed
+Automated end-to-end testing for [Jumbo](https://www.jumbo.com) using **Cypress**.
 
-## [Test Plan](testPlan.txt)
+---
 
-## __Installing Dependencies__
-1. Install Cypress
-````
+## 🚀 Prerequisites
+
+Before starting, make sure you have:
+
+- ✅ [Node.js](https://nodejs.org/) installed  
+- ✅ At least one modern browser (Chrome, Firefox, Edge, etc.)  
+- ✅ [Git](https://git-scm.com/) installed (for version control)
+
+---
+
+## 📦 Installing Dependencies
+
+Run the following commands to install everything needed:
+
+```bash
+# Clone this repository
+git clone https://github.com/mokhalil89/jumbo-e2e-tests.git
+cd jumbo-e2e-tests
+
+# Install project dependencies
+npm install
+
+# Install Cypress (if not already)
 npm install cypress
-````
-2. Install ESLint and Cypress plugin
-````
+
+# Optional tools for better development
 npm install --save-dev eslint eslint-plugin-cypress
-````
-3. Add Prettier Integration
-````
 npm install --save-dev prettier eslint-config-prettier
-````
-4. Install Data Faker
-````
 npm install --save-dev @faker-js/faker
-````
-5.To use hover Plugin
-````
 npm install --save-dev cypress-real-events
-````
-6. To open the Cypress Application use the command
-````
-npx cypress open
-````
-7. To run Cypress Headless use the command
-````
-npx cypress run
-````
-8. To run Cypress Headless on specific browser use the command
-````
-npx cypress run --browser {browser name}
-````
